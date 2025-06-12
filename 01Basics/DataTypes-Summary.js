@@ -35,3 +35,26 @@ const myFunction = function(){
 console.log(typeof heros);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++ Memory +++++++++++++++++++
+
+//Stack (Primative) , Heap (Non-Primative)
+
+let myYoutubeName = "learningAdda"
+let anotherName = myYoutubeName
+anotherName = "LearningHub"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "rajvardhan@gmail.com",
+    upiId: "raj@pay"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "raj@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
