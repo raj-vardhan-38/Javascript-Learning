@@ -51,3 +51,34 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser)); // key:values in array
 
 console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
+
+// ###################### API ###################
+// JSON
+
+// {
+//     "name": "Raj",
+//     "coursename": "ja in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
