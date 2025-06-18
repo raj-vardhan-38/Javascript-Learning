@@ -46,3 +46,4 @@ const chai = () => {
 
 const addTwo = (num1, num2) => ({username: "Sam"})
 console.log(addTwo(3, 4));
+
